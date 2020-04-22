@@ -110,6 +110,12 @@ body {
     display: inline-block;
 }
 
+.order-button:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
 .arrow {
     width: 9px;
     height: 12px;
