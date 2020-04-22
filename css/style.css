@@ -26,7 +26,7 @@ body {
 
 .slider {
     height: 800px;
-    background-image: url("../source/Image/MainPhotos/slider-img.jpg");
+    background-image: url("../source/image/MainPhotos/slider-img.jpg");
     position: relative;
 }
 
@@ -201,14 +201,14 @@ body {
     width: 683px;
     height: 683px;
     float: left;
-    background-image: url("../source/Image/MainPhotos/promo-img1.jpg");
+    background-image: url("../source/image/MainPhotos/promo-img1.jpg");
 }
 
 .exclusive-right {
     width: 683px;
     height: 683px;
     float: right;
-    background-image: url("../source/Image/MainPhotos/promo-img.jpg");
+    background-image: url("../source/image/MainPhotos/promo-img.jpg");
 }
 
 .exclusive-content {
@@ -278,7 +278,7 @@ body {
 .hot {
     height: 800px;
     /*position: relative;*/
-    background-image: url("../source/Image/MainPhotos/slider.jpg");
+    background-image: url("../source/image/MainPhotos/slider.jpg");
 
     /*padding-top: 287px;
     padding-left: 99px;*/
@@ -310,7 +310,7 @@ body {
     height: 570px;
 
     float: left;
-    background-image: url("../source/Image/Products/product-1-lg.jpg");
+    background-image: url("../source/image/Products/product-1-lg.jpg");
 }
 
 .exclusive-catalog {
@@ -329,7 +329,7 @@ body {
 
 .mobile-block {
     height: 516px;
-    background-image: url("../source/Image/MainPhotos/mobile.jpg");
+    background-image: url("../source/image/MainPhotos/mobile.jpg");
 }
 
 .mobile-block-content {
@@ -455,7 +455,7 @@ input[type="submit"] {
     width: 21px;
     height: 17px;
     border: none;
-    background: url("../source/Image/Icons/teleg.png") no-repeat 50% 50%;
+    background: url("../source/image/Icons/teleg.png") no-repeat 50% 50%;
 }
 
 /*.copyright-block{
