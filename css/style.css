@@ -61,25 +61,29 @@ body {
 }
 
 .slider-text {
-    margin-top: 283px;
+    margin-top: 235px;
 }
 
 .slider-trending {
     width: 109px;
+    height: 13px;
     color: #43a047;
-    font-size: 18px;
-    font-weight: 700px;
+    font-size: 22px;
     line-height: 48px;
     text-transform: uppercase;
     letter-spacing: 1.8px;
+    margin-bottom: 22px;
 }
 
 .slider-header {
     color: #212121;
-    font-size: 62px;
-    font-weight: 200;
+    font-size: 58px;
+    font-weight: 400;
     line-height: 72px;
     text-transform: uppercase;
+    height: 43px;
+    margin-bottom: 34px;
+    letter-spacing: 0px;
 }
 
 .slider-content {
@@ -88,8 +92,8 @@ body {
     font-weight: 300;
     line-height: 24px;
     width: 458px;
-    margin-top: 20px;
     margin-bottom: 20px;
+    letter-spacing: 0px;
 }
 
 .order-button {
