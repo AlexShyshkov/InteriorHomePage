@@ -11,6 +11,7 @@ body {
     content: "";
     display: table;
     clear: both;
+
 }
 
 .padding-site {
@@ -36,6 +37,11 @@ body {
 
 .menu {
     float: right;
+    padding-top: 52px;
+}
+
+.search {
+    padding-top: 11px;
 }
 
 .menu-list {
