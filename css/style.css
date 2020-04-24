@@ -56,7 +56,7 @@ body {
     line-height: 48px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 10px 13px;
+    padding: 0px 13px 10px 13px;
 }
 
 .menu-link-active {
@@ -121,9 +121,11 @@ body {
 }
 
 .order-button:hover {
+    background: #88b0b9;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.3);
+    /*background: rgba(0, 0, 0, 0.3);*/
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .arrow {
