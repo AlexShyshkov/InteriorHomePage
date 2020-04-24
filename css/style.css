@@ -121,7 +121,7 @@ body {
 
 .order-button:hover {
     background: #c7ebf3;
-    opacity: 1;
+    /*opacity: 1;*/
     cursor: pointer;
 }
 
