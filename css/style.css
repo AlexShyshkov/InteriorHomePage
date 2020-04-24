@@ -121,7 +121,6 @@ body {
 
 .order-button:hover {
     background: #c7ebf3;
-    /*opacity: 1;*/
     cursor: pointer;
 }
 
@@ -324,7 +323,7 @@ body {
     height: 570px;
 
     float: left;
-    background-image: url("../source/image/slider-bg/product-1-lg.jpg");
+    background-image: url("../source/image/products/product-1-lg.jpg");
 }
 
 .exclusive-catalog {
