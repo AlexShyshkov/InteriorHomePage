@@ -11,13 +11,11 @@ body {
     content: "";
     display: table;
     clear: both;
-
 }
 
 .padding-site {
     padding-left: 98px;
     padding-right: 98px;
-
 }
 
 .content {
@@ -27,7 +25,7 @@ body {
 
 .slider {
     height: 800px;
-    background-image: url("../source/image/MainPhotos/slider-img.jpg");
+    background-image: url("../source/image/slider-bg/slider-img.jpg");
     position: relative;
 }
 
@@ -169,7 +167,7 @@ body {
     color: #6c6c6c;
     font-size: 36px;
     font-weight: 700;
-    ;
+    
     float: left;
     padding: 10px 15px;
     text-decoration: none;
@@ -193,7 +191,6 @@ body {
     text-decoration: none;
     letter-spacing: 3.6px;
     padding: 30px;
-    ;
 }
 
 .explore:hover {
@@ -219,14 +216,14 @@ body {
     width: 683px;
     height: 683px;
     float: left;
-    background-image: url("../source/image/MainPhotos/promo-img1.jpg");
+    background-image: url("../source/image/slider-bg/promo-img1.jpg");
 }
 
 .exclusive-right {
     width: 683px;
     height: 683px;
     float: right;
-    background-image: url("../source/image/MainPhotos/promo-img.jpg");
+    background-image: url("../source/image/slider-bg/promo-img.jpg");
 }
 
 .exclusive-content {
@@ -296,7 +293,7 @@ body {
 .hot {
     height: 800px;
     /*position: relative;*/
-    background-image: url("../source/image/MainPhotos/slider.jpg");
+    background-image: url("../source/image/slider-bg/slider.jpg");
 
     /*padding-top: 287px;
     padding-left: 99px;*/
@@ -328,7 +325,7 @@ body {
     height: 570px;
 
     float: left;
-    background-image: url("../source/image/Products/product-1-lg.jpg");
+    background-image: url("../source/image/slider-bg/product-1-lg.jpg");
 }
 
 .exclusive-catalog {
@@ -347,7 +344,7 @@ body {
 
 .mobile-block {
     height: 516px;
-    background-image: url("../source/image/MainPhotos/mobile.jpg");
+    background-image: url("../source/image/slider-bg/mobile.jpg");
 }
 
 .mobile-block-content {
@@ -473,7 +470,7 @@ input[type="submit"] {
     width: 21px;
     height: 17px;
     border: none;
-    background: url("../source/image/Icons/teleg.png") no-repeat 50% 50%;
+    background: url("../source/image/icons/teleg.png") no-repeat 50% 50%;
 }
 
 /*.copyright-block{
