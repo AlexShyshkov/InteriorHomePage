@@ -120,16 +120,21 @@ body {
 }
 
 .order-button:hover {
-    background: #c7ebf3;
+    background: #83aeb5;
     cursor: pointer;
 }
 
+.order-button:active {
+     visibility: visible;
+}
 .arrow {
     width: 9px;
     height: 12px;
-    background-color: #212121;
+    visibility: hidden;
 }
-
+.arrow:active {
+    visibility: visible;
+}
 .slider-pagination {
     position: absolute;
     text-align: center;
@@ -193,7 +198,11 @@ body {
 
 .explore:hover {
     text-decoration: underline;
+    transition: 0.5s;
 }
+
+
+
 
 .tabs-list {
     width: 1170px;
@@ -449,26 +458,29 @@ body {
     line-height: 22px;
 }
 
-/*.email-input{
+/*.email-form{
     background-color: #ffffff;
     border: 1px solid #d9dee1;
     width: 370px;
 }*/
-input[type="search"] {
+
+input[type="email"] {
     background-color: #ffffff;
     border: 1px solid #d9dee1;
     width: 370px;
     height: 48px;
     text-align: left;
-
+    padding-left: 15px;
     margin-top: 26px;
 }
 
-input[type="submit"] {
+input[type="image"] {
+    margin-left: -50px;
     width: 21px;
-    height: 17px;
+    height: 20px;
     border: none;
-    background: url("../source/image/icons/teleg.png") no-repeat 50% 50%;
+    vertical-align: bottom;
+    padding-bottom: 13px;
 }
 
 /*.copyright-block{
