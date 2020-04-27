@@ -209,6 +209,7 @@ body {
 
 .explore:hover .arrow{
     display: inline;
+    transition: 0.5s;
 }
 
 
