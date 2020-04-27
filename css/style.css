@@ -126,17 +126,20 @@ body {
     cursor: pointer;
 }
 
-.order-button:active {
-     visibility: visible;
+
+.order-button:hover .arrow{
+     display: inline;
 }
+
 .arrow {
     width: 9px;
     height: 12px;
-    visibility: hidden;
+    display: none;
 }
+/*
 .arrow:active {
     visibility: visible;
-}
+}*/
 .slider-pagination {
     position: absolute;
     text-align: center;
@@ -204,6 +207,9 @@ body {
     transition: 0.5s;
 }
 
+.explore:hover .arrow{
+    display: inline;
+}
 
 
 
@@ -222,7 +228,6 @@ body {
   opacity: 0.2;
 }
 .tabs-product:hover .block{
-
   display: block;
 }
 .block {
