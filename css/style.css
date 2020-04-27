@@ -165,12 +165,11 @@ body {
 
 .tabs {
     height: 610px;
-    margin-top: 130px;
 }
 
-/*.tabs-title{
-
-}*/
+.tabs-title{
+    padding-top: 120px;
+}
 .tabs-title-link {
     color: #6c6c6c;
     font-size: 36px;
