@@ -127,7 +127,9 @@ body {
     cursor: pointer;
 }
 
-
+.order-button:active {
+    box-shadow: 0 1px 5px 1px rgba(33, 33, 33, 0.35);
+}
 .order-button:hover .arrow{
     display: inline;
 }
