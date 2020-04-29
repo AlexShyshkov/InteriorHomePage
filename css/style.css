@@ -180,17 +180,25 @@ body {
     float: left;
     padding: 10px 15px;
     text-decoration: none;
+    border-bottom: 2px solid;
 }
-
 
 .link-active {
     color: #212121;
     transition: color linear 0.2s;
+    border-bottom: 3px solid;
+}
+
+.tabs-title-link:active{
+    color: #212121;
+    border-bottom: 3px solid;
 }
 
 .tabs-title-link:hover {
     color: #212121;
 }
+
+
 
 .explore-all{
     text-align: left;
