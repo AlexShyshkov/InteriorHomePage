@@ -115,10 +115,11 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     letter-spacing: 3.6px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     transition: 0.5s;
+    padding-left: 31px;
 }
 
 .order-button:hover {
@@ -128,13 +129,14 @@ body {
 
 
 .order-button:hover .arrow{
-     display: inline;
+    display: inline;
 }
 
 .arrow {
     width: 9px;
     height: 12px;
     display: none;
+    padding-left: 17px;
 }
 /*
 .arrow:active {
@@ -190,6 +192,10 @@ body {
     color: #212121;
 }
 
+.explore-all{
+    text-align: left;
+    display: block;
+}
 .explore {
     color: #212121;
     float: right;
@@ -198,12 +204,14 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3.6px;
-    padding: 30px 30px 68px 30px;
+    padding: 0px 30px 68px 0px;
+   
 }
 
 .explore:hover {
     text-decoration: underline;
     transition: 0.5s;
+    display: inline;
 }
 
 .explore:hover .arrow{
@@ -484,11 +492,9 @@ body {
     line-height: 22px;
 }
 
-/*.email-form{
-    background-color: #ffffff;
-    border: 1px solid #d9dee1;
-    width: 370px;
-}*/
+.email-form{
+  padding-left: 777px;
+}
 
 input[type="email"] {
     background-color: #ffffff;
