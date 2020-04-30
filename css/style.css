@@ -335,23 +335,18 @@ body {
     list-style: none;
 }
 
-/*.trending-product-image {
-    margin-top: 30px;
-    margin-right: 15px;
-}*/
-
 .trending-product-image {
     margin-top: 30px;
     margin-right: 0px;
     margin-left: 0px;
-    margin-bottom: 0px;
 }
 
 .trending-product-image-middle {
     margin-top: 30px;
+    margin-bottom: 0px;
     padding-right: 30px;
     padding-left: 30px;
-     margin-bottom: 0px;
+    
 }
 .hot {
     height: 800px;
