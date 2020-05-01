@@ -335,6 +335,16 @@ body {
     margin-top: 64px;
 }
 
+.trending-list-top {
+    height: 370px;
+    margin-bottom: 30px;
+}
+
+.trending-list-bottom {
+    height: 370px;
+    margin-bottom: 0px;
+}
+
 .trending-product {
     width: 370px;
     height: 370px;
@@ -344,14 +354,11 @@ body {
 .trending-product-image {
     margin-right: 0px;
     margin-left: 0px;
-    margin-bottom: 30px;
 }
 
 .trending-product-image-middle {
     padding-right: 30px;
     padding-left: 30px;
-    margin-bottom: 0px;
-    margin-bottom: 30px;
 }
 
 .hot {
@@ -398,32 +405,23 @@ body {
 }
 
 .exclusive-list-top {
-    float: right;
     list-style: none;
     display: inline-block;
-    padding: 0;
-    border-spacing: 0em 0em;
     margin-left: 30px;
     margin-bottom: 30px;
     height: 270px;
 }
 
 .exclusive-list-bottom {
-    float: right;
     list-style: none;
     display: inline-block;
-    padding: 0;
-    border-spacing: 0em 0em;
     margin-left: 30px;
     height: 270px;
 }
 
-.exclusive-list-link-left img {
-
+.exclusive-list-link img {
     margin-right: 30px;
 }
-
-.exclusive-list-link-right img {}
 
 .mobile-block {
     height: 516px;
