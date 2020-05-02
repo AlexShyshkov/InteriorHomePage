@@ -426,7 +426,9 @@ body {
 .mobile-block {
     height: 516px;
     background-image: url("../source/image/slider-bg/mobile.jpg");
+    position: relative;
 }
+
 
 .mobile-block-content {
     padding-top: 125px;
