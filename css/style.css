@@ -66,6 +66,7 @@ body {
 
 .slider-text {
   margin-top: 235px;
+  padding-bottom: 140px;
 }
 
 .slider-trending {
@@ -145,7 +146,8 @@ body {
     visibility: visible;
 }*/
 .slider-pagination {
-  position: absolute;
+  /*position: absolute;*/
+
   text-align: center;
   width: 1170px;
   bottom: 19px;
@@ -363,16 +365,16 @@ body {
 
 .hot {
   height: 800px;
-  /*position: relative;*/
+  position: relative;
   background-image: url("../source/image/slider-bg/slider.jpg");
-
+  position: relative;
   /*padding-top: 287px;
     padding-left: 99px;*/
 }
 
 .hot-content {
   padding-top: 287px;
-  padding-left: 99px;
+  padding-bottom: 180px;
 }
 
 .hot-deal {
