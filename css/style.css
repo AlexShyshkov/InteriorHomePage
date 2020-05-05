@@ -544,13 +544,13 @@ body {
 }
 
 .email-form {
-  padding-left: 849px;
+  padding-left: 861px;
 }
 
 input[type="email"] {
   background-color: #ffffff;
   border: 1px solid #d9dee1;
-  width: 300px;
+  width: 290px;
   height: 48px;
   text-align: left;
   padding-left: 15px;
