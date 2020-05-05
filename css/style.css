@@ -212,7 +212,6 @@ body {
 }
 
 .explore {
-
     /*
     text-align: right;
     display: block;
@@ -226,13 +225,10 @@ body {
     padding: 10px 0px 0px 0px;
 }
 
-.explore-first {
-    padding-left: 649px;
+.explore-all-link {
+    padding-left: 970px;
 }
 
-.explore-second {
-    padding-left: 610px;
-}
 
 .explore:hover {
     text-decoration: underline;
@@ -604,6 +600,7 @@ input[type="image"] {
     margin-right: 128px;
     line-height: 26px;
 }
+
 /*.scroll-up-btn{
 	z-index: 9999;
 	position: fixed;
