@@ -229,7 +229,6 @@ body {
     padding-left: 970px;
 }
 
-
 .explore:hover {
     text-decoration: underline;
     transition: 0.5s;
@@ -244,6 +243,7 @@ body {
 .tabs-list {
     width: 1270px;
     padding-bottom: 120px;
+    height: 270px;
 }
 
 .tabs-product {
@@ -251,6 +251,8 @@ body {
     height: 270px;
     padding-right: 30px;
     position: relative;
+    text-decoration: none;
+    color: #212121;
 }
 
 .tabs-product:hover {
@@ -549,13 +551,13 @@ body {
 }
 
 .email-form {
-    padding-left: 861px;
+    padding-left: 761px;
 }
 
 input[type="email"] {
     background-color: #ffffff;
     border: 1px solid #d9dee1;
-    width: 290px;
+    width: 353px;
     height: 48px;
     text-align: left;
     padding-left: 15px;
@@ -573,19 +575,17 @@ input[type="image"] {
 
 .copyright-block {
     height: 12px;
-
     font-weight: 700;
+    padding-top: 50px;
 }
 
 .copyright-text,
 .terms {
     color: #6c6c6c;
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 700;
-
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    height: 12px;
 }
 
 .copyright {
