@@ -607,7 +607,7 @@ input[type="image"] {
     z-index: 9999;
     position: fixed;
     cursor: pointer;
-    right: 25px;
+    right: 50px;
     bottom: 25px;
     opacity: 0;
     transition: 0.5s;
@@ -617,6 +617,11 @@ input[type="image"] {
 .scroll-up-btn-visible {
     display: block;
     opacity: 0.7;
+}
+
+.scroll-up-size {
+    height: 80px;
+    width: 80px;
 }
 
 .scroll-up-btn-visible:hover {
