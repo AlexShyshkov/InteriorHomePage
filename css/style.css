@@ -248,8 +248,9 @@ body {
 
 .tabs-product:hover .block {
     display: block;
-     background-color: #ffffff;
-      opacity: 0.9;
+    background-color: #ffffff;
+    opacity: 0.9;
+    transition: 0.5s;
 }
 
 .block {
