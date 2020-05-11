@@ -16,6 +16,10 @@
 ### Authors
 -----------------------
 
+This project was made by
+
+Oleksandr Shyshkov - https://github.com/AlexShyshkov
+Hanna Ulianovska - https://github.com/Shih-tzuco
 
 ### License
 -----------------------
