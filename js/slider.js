@@ -2,11 +2,11 @@
 
 window.addEventListener('DOMContentLoaded', function(){
 	let slideIndex = 1;
-	let slides = document.querySelectorAll('.gallery-content-item')
+	let slides = document.querySelectorAll('.')
 	let previous = document.querySelector('.left');
 	let next = document.querySelector('.right');
-	let dotsWrap = document.querySelector('.gallery-dots');
-	let dots = document.querySelectorAll('.dot');
+	let dotsWrap = document.querySelector('.slider-pagination');
+	let dots = document.querySelectorAll('.circle');
 
 	function showSlide(slideNumber){
 		if(slideNumber > slides.length){
@@ -21,11 +21,11 @@ window.addEventListener('DOMContentLoaded', function(){
 		}
 
 		for(let i = 0; i < dots.length; i++){
-			dots[i].classList.remove('dot-active');
+			dots[i].classList.remove('circle-active');
 		}
 
 		slides[slideIndex - 1].style.display = 'block';
-		dots[slideIndex - 1].classList.add('dot-active');
+		dots[slideIndex - 1].classList.add('circle-active');
 	}
 
 	function showNextSlide(n){
@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', function(){
 	});
 	dotsWrap.addEventListener('click', function(event){
 		for(let i = 0; i < dots.length + 1; i++){
-			if(event.target.classList.contains('dot') 
+			if(event.target.classList.contains('circle') 
 				&& event.target == dots[i - 1]){
 					currentSlide(i);
 			}
