@@ -631,7 +631,7 @@ input[type="image"] {
     position: fixed;
     cursor: pointer;
     right: 50px;
-    bottom: 25px;
+    bottom: 130px;
     opacity: 0;
     transition: 0.5s;
     display: none;
