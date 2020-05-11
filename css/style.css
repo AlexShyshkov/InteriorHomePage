@@ -246,13 +246,6 @@ body {
     display: inline-block;
 }
 
-.tabs-product:hover .block {
-    display: block;
-    background-color: #ffffff;
-    opacity: 0.9;
-    transition: 0.5s;
-}
-
 .block {
     position: absolute;
     left: 0;
@@ -261,6 +254,13 @@ body {
     top: 0;
     display: none;
     text-align: center;
+}
+
+.tabs-product:hover .block {
+    display: block;
+    background-color: #ffffff;
+    opacity: 0.9;
+    /*transition: 0.5s;*/
 }
 
 .tabs-product-circle {
@@ -274,6 +274,7 @@ body {
     margin-left: 111px;
     margin-right: 111px;
     margin-bottom: 19px;
+    transition: 0.5s;
 }
 
 .tabs-product-arrow {
